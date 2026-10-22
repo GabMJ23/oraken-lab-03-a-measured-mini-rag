@@ -1,0 +1,4 @@
+# Only for the real embedding model, on your own machine. CI never installs this.
+# It pulls PyTorch (several hundred MB) and downloads the model on first use.
+-r requirements.txt
+sentence-transformers==5.1.2
